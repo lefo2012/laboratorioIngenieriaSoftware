@@ -1,0 +1,98 @@
+/* estilos para el contenedor principal */
+.grid-container{
+	display:grid;
+	grid-template-columns:20% 80%;
+	
+}
+/* estilos para el contenedor de las tarjetas */
+.grid-container-plus
+{
+	display: grid;
+	grid-template-columns:33% 33% 33%;
+	gap:10px;
+}
+/* estilos para la tarjeta 1 */
+#tarjeta-1
+{
+	border-radius: 20px;
+	border-color: #040f16;
+	font-family: sans-serif, Arial, Helvetica;
+	border:2px;
+	background-color:#004275;
+	color:white;
+	text-align:center;
+}
+/* estilos para la tarjeta 2 */
+#tarjeta-2
+{
+
+	border-radius: 20px;
+	border-color: #040f16;
+	font-family: sans-serif, Arial, Helvetica;
+	border:2px;
+	background-color:#005CA3;
+	color:white;
+	text-align:center;
+}
+/* estilos para la tarjeta 3 */
+#tarjeta-3
+{
+
+	border-radius: 20px;
+	border-color: #040f16;
+	font-family: sans-serif, Arial, Helvetica;
+	border:2px;
+	background-color:#0076D1;
+	color:white;
+	text-align:center;
+}
+/* estilos para el contenedor de las tarjetas */
+.center
+{
+	display:flex;
+	justify-content:center;
+}
+/* estilos para el header */
+header
+{
+	background-color:#00355E;
+	color:white;
+	margin-bottom: 10px;
+}
+/* alineacion del texto del header */
+h1
+{
+	text-align:center;
+}
+/* estilos para el botón de agendar cita */
+.btn
+{
+	background-color:#A6D7FF;
+	color:black;
+	border-color: white;
+	
+	width: 150px;
+	height: 50px;
+	border-radius:8px;
+	border: 1px solid white;
+}
+/* efecto de sombra al pasar el mouse por encima del botón */
+.btn:hover
+{
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+/* efecto de presionar el botón */
+.btn:active
+{
+	width: 148px;
+	height: 48px;
+}
+/* color del fondo del footer: #00355E modificacion en la alineacion del texto*/
+footer
+{
+	background-color:#00355E;
+	color:white;
+	text-align:center;
+	padding:20px;
+	margin-top: 10px;
+}
